@@ -1,8 +1,8 @@
 ####################################################
 #
-#Version 1.0 for Python 3
+# Version 1.0 for Python 3
 # by hadmagic
-#https://github.com/hadmagic
+# https://github.com/hadmagic
 #
 ####################################################
 # This program is free software: you can redistribute it and/or modify
@@ -26,7 +26,7 @@ import datetime
 
 #Arguments parser#
 parser = argparse.ArgumentParser()
-parser.add_argument("PATH", help="precise path of disk")
+parser.add_argument("PATH", help="precise path of disk or folder")
 args = parser.parse_args()
 
 fileList = []
