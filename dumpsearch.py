@@ -82,6 +82,8 @@ for s in range(0, len(worklist)):
         rex = (worklist[s][1].replace('"', '')) # Strip " symbole
         try:
             fopen = open(fileList[i], 'rb+') # open all files of the dirs
+            out_file.write('\n'+ '='*100 + '\n')
+            out_file.write('\n' + fileList[i]  +" : " + '\n\n')
         except:
             continue
 
